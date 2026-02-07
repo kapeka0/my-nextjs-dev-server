@@ -28,6 +28,11 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <iframe
+          src="http://localhost:3000/__nextjs_launch-editor?file=/"
+          width="560"
+          height="315"
+        ></iframe>
       </body>
     </html>
   );
